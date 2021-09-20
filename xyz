@@ -1,0 +1,15 @@
+#include <stdio.h> 
+int main() 
+{ 
+int i=2; switch (i)
+ { 
+case 1: printf("Fruit"); 
+break; 
+case 2: printf("Noodles"); break; 
+case 3: printf("Rice");
+ break; 
+case 4: printf("Chips"); break; 
+default: printf("Invalid input"); 
+} 
+return 0;
+}
